@@ -50,7 +50,7 @@ public class Cards {
 	JLabel label_money = new JLabel();
 	NumberFormat amountFormat;
 	JTextField txt_inputbet = new JTextField(10);
-	ImageIcon Image1 = new ImageIcon("card_back.gif");
+	ImageIcon Image1 = new ImageIcon("card/card_back.gif");
 	JFrame frame = new JFrame();
 	 int count=0;
 	 int money=100;
@@ -196,7 +196,7 @@ public class Cards {
 			{
 				money=100;
 			}
-			ImageIcon Image1 = new ImageIcon("card_back.gif");
+			ImageIcon Image1 = new ImageIcon("card/card_back.gif");
 			label_Image1.setIcon(Image1);
 			label_Image2.setIcon(Image1);
 			label_Image3.setIcon(Image1);
@@ -233,7 +233,7 @@ public class Cards {
 			y++;
 			p1=cards[j];
 			j++;
-			ImageIcon Image1 = new ImageIcon("card_"+((p1/13)+1)+((p1%13)+1)+".gif");
+			ImageIcon Image1 = new ImageIcon("card/card_"+((p1/13)+1)+((p1%13)+1)+".gif");
 			label_Image4.setIcon(Image1);
 
 		}
@@ -270,7 +270,7 @@ public class Cards {
 			y++;
 			p2=cards[j];
 			j++;
-			ImageIcon Image5 = new ImageIcon("card_"+((p2/13)+1)+((p2%13)+1)+".gif");
+			ImageIcon Image5 = new ImageIcon("card/card_"+((p2/13)+1)+((p2%13)+1)+".gif");
 			label_Image5.setIcon(Image5);
 
 		}
@@ -305,7 +305,7 @@ public class Cards {
 			y++;
 			p3=cards[j];
 			j++;
-			ImageIcon Image3 = new ImageIcon("card_"+((p3/13)+1)+((p3%13)+1)+".gif");
+			ImageIcon Image3 = new ImageIcon("card/card_"+((p3/13)+1)+((p3%13)+1)+".gif");
 			label_Image6.setIcon(Image3);
 
 		}
@@ -368,9 +368,9 @@ public class Cards {
 			j++;
 			p3=cards[j];
 			j++;
-			ImageIcon Image1 = new ImageIcon("card_"+((p1/13)+1)+((p1%13)+1)+".gif");
-			ImageIcon Image2 = new ImageIcon("card_"+((p2/13)+1)+((p2%13)+1)+".gif");
-			ImageIcon Image3 = new ImageIcon("card_"+((p3/13)+1)+((p3%13)+1)+".gif");
+			ImageIcon Image1 = new ImageIcon("card/card_"+((p1/13)+1)+((p1%13)+1)+".gif");
+			ImageIcon Image2 = new ImageIcon("card/card_"+((p2/13)+1)+((p2%13)+1)+".gif");
+			ImageIcon Image3 = new ImageIcon("card/card_"+((p3/13)+1)+((p3%13)+1)+".gif");
 
 			label_Image4.setIcon(Image1);
 			label_Image5.setIcon(Image2);
@@ -423,9 +423,9 @@ public class Cards {
 		started=false;
 
 		reset=true;
-		ImageIcon Image1 = new ImageIcon("card_"+((d1/13)+1)+((d1%13)+1)+".gif");
-		ImageIcon Image2 = new ImageIcon("card_"+((d2/13)+1)+((d2%13)+1)+".gif");
-		ImageIcon Image3 = new ImageIcon("card_"+((d3/13)+1)+((d3%13)+1)+".gif");
+		ImageIcon Image1 = new ImageIcon("card/card_"+((d1/13)+1)+((d1%13)+1)+".gif");
+		ImageIcon Image2 = new ImageIcon("card/card_"+((d2/13)+1)+((d2%13)+1)+".gif");
+		ImageIcon Image3 = new ImageIcon("card/card_"+((d3/13)+1)+((d3%13)+1)+".gif");
 
 		label_Image1.setIcon(Image1);
 		label_Image2.setIcon(Image2);
